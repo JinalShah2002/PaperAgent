@@ -20,7 +20,7 @@ class ArxivAPI:
             sort_by = sort_by
         )
         results = self.client.results(search)
-        return results
+        return list(results)
     
     # Function to download papers
     def download_papers(self, results, dirpath='../papers'):
@@ -29,4 +29,5 @@ class ArxivAPI:
             os.makedirs(dirpath)
 
         for r in results:
-            r.download_pdf(dirpath=dirpath,filename=f"{r.title}.pdf")
+            r.download_pdf(dirpath=dirpath,filename=f"{r.get_short_id()}.pdf")
+            print(f'Downloaded {r.title}')
