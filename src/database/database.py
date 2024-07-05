@@ -65,7 +65,8 @@ class PineconeDatabase:
                 'title':papers[index].title,
                 'authors':[],
                 'doi':"",
-                'journal_ref':""
+                'journal_ref':"",
+                'date':papers[index].published.strftime('%m-%d-%Y')
             }
             authors_list = [author.name for author in papers[index].authors]
             meta_data['authors'] = authors_list
