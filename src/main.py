@@ -12,6 +12,7 @@ from database.database import PineconeDatabase
 from agent.agent import Agent
 from dotenv import load_dotenv
 import shutil
+from keybert import KeyBERT
 
 # Loading environment
 load_dotenv()
@@ -21,13 +22,8 @@ query = input('Enter your research question or research area:\n')
 # Getting the papers 
 print('Getting papers...')
 print()
-
-"""
-
-TODO: Build Keyword Extractor (using KeyBert)
-
-"""
-keywords = ["SVG AND (large language models)"]
+kw_model = KeyBERT() # Using SBert to extract the keywords from the query
+keywords = [pair[0] for pair in kw_model.extract_keywords(query, keyphrase_ngram_range=(1,3),stop_words=None,top_n=5)]
 arxiv = ArxivAPI()
 papers = []
 for keyword in keywords:
