@@ -23,7 +23,7 @@ class ArxivAPI:
         return list(results)
     
     # Function to download papers
-    def download_papers(self, results, dirpath='../papers'):
+    def download_papers(self, results, dirpath='./papers'):
         # Making the directory if it doesn't exist
         if not os.path.exists(dirpath):
             os.makedirs(dirpath)
