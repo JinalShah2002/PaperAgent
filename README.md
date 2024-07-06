@@ -8,12 +8,12 @@ Research drives innovation. As a result, millions of people around the globe are
 ## Use Cases
 PaperAgent is meant for the following use cases: 
 
-1. To generate a literature review to serve as an entry point into a research field or research topic.
+1. To generate a literature review that can serve as an entry point into a research field or research topic.
 2. To allow a user to understand "what's out there" in relation to their research question/topic.
 
 PaperAgent is NOT meant for the following use case:
 
-1. It is NOT meant to be a means to replace the act of writing a literature review. Literature reviews are critical for research papers. While PaperAgent generates literature reviews, it may lack the complexity that high quality literature reviews contain. Furthermore, it is important to be aware of the fact that PaperAgent may hallunicate. As PaperAgent is a system built using large language models (LLMs), this risk is important to be aware of. With this in mind, you should use PaperAgent as "liftoff" point as you immerse yourself into your research area. 
+1. It is NOT meant to be a means to replace the act of writing a literature review. Literature reviews are critical for research papers. While PaperAgent generates literature reviews, it may lack the complexity that high quality literature reviews contain. Furthermore, it is important to be aware of the fact that PaperAgent may hallunicate. As PaperAgent is a system built using large language models (LLMs), this risk is important to be aware of. With this in mind, you should use PaperAgent as a "liftoff" point as you immerse yourself into your research area. 
 
 ## How to use PaperAgent
 To use PaperAgent, please follow the following procedure:
