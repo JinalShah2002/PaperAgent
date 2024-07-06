@@ -44,7 +44,7 @@ poetry run streamlit run app.py
 
 Now you are all set! You can start generating literature reviews!
 
-## Architecture
+## Flow Diagram
 ``````mermaid
 graph TD
     A[User] --> B[Research Question]
