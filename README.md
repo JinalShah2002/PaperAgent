@@ -59,4 +59,4 @@ graph TD
     K --> L[Split into chunks]
     L --> M[text-embedding-3-large model]
     M --> G
-```
+
