@@ -56,7 +56,7 @@ graph TD
     B --> H
     H --> I[Literature Review]
     F --> K[Convert PDFs to strings]
-    K --> L[Split into chunks]
+    K --> L[Split document strings into chunks]
     L --> M[text-embedding-3-large model]
     M --> G
 
