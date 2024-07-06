@@ -45,3 +45,18 @@ poetry run streamlit run app.py
 Now you are all set! You can start generating literature reviews!
 
 ## Architecture
+``````mermaid
+graph TD
+    A[User] --> B[Research Question]
+    B --> C[KeyBert]
+    C -->|Top 5 key words/phrases| E[Search]
+    E -->|Top 5 papers for every key word/phrase| F[Download]
+    B -->|Querying vector store| G[Pinecone Vector Database]
+    G -->|Top 10 chunks| H[Claude 3.5]
+    B --> H
+    H --> I[Literature Review]
+    F --> K[Convert PDFs to strings]
+    K --> L[Split into chunks]
+    L --> M[text-embedding-3-large model]
+    M --> G
+```
