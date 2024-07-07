@@ -5,6 +5,9 @@ PaperAgent is an AI assistant that enables a user to generate literature reviews
 ## Problem
 Research drives innovation. As a result, millions of people around the globe are involved in research & development (R&D) work ,and thousands of papers are being published daily. With this much knowledge out there, it can become overwhelming for an individual to figure what papers are relevant to their line of work. In comes PaperAgent: an AI assistant tasked to provide you with a comprehensive literature review. This literature review can be utilized to form a foundation for your R&D work. It allows you to understand your research question thoroughly as well as understand what related work has been done. The goal of PaperAgent is to accelerate R&D work by minimizing the time individuals take to thoroughly go through research papers to understand their problem.
 
+## Demo
+Here is a link to the demo: [Demo](https://drive.google.com/file/d/1n3ZoxdbenBF4F5HXKjJ3eHkBJjRG4PCS/view?usp=sharing)
+
 ## Use Cases
 PaperAgent is meant for the following use cases: 
 
